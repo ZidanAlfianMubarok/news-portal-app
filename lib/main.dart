@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => NewsProvider()),
       ],
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'News Portal',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
